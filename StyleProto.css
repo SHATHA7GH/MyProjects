@@ -1,0 +1,55 @@
+*{
+    background-color: rgb(236, 239, 240);
+    
+}
+
+/* إزالة أي خلفية أو ظل عن النص داخل الكارد */
+.FirstProject h2,
+.FirstProject p,
+.SecProject h2,
+.SecProject p {
+    background: transparent !important;
+    box-shadow: none !important;
+    padding: 0 !important;
+    margin: 10px 0 !important;
+}
+
+#WelText{
+    background-color: rgba(138, 136, 135, 0.49);
+    text-align: center;
+}
+
+#welh3{
+    text-align: center;
+}
+
+.FirstProject{
+width: 70%;
+background-color: rgb(198, 196, 196);
+margin: 0 auto 40px auto;
+padding: 25px;
+border-radius: 14px;
+box-shadow: 0 0 10px rgba(0,0,0,1);
+transition: transform 0.3s ease,box-shadow 0.3s ease;
+}
+
+.SecProject{
+ width: 70%;
+ background-color: rgb(198, 196, 196);
+margin: 0 auto 40px auto;
+padding: 25px;
+border-radius: 14px;
+box-shadow: 0 0 10px rgba(0,0,0,1);
+transition: transform 0.3s ease,box-shadow 0.3s ease;
+}
+
+.FirstProject:hover,
+.SecProject:hover {
+    transform: scale(1.03);
+    box-shadow: 0 0 25px rgba(0,0,0,0.4);
+}
+
+.FirstProject h2:hover,
+.SecProject h2:hover {
+    transform: scale(1.05);
+}
